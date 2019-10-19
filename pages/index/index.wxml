@@ -1,0 +1,14 @@
+<view class="list-container">
+    <button type="primary" size="default" plain="true" bindtap="primitives">
+        基本
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="cube">
+        OrbitControl 立方
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="gltf">
+        gLTF
+    </button>
+    <button type="primary" size="default" plain="true" bindtap="obj">
+        OBJ
+    </button>
+</view>
