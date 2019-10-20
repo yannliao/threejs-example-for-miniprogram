@@ -24,7 +24,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.3",
-	"appid": "",
+	"appid": "wx6d94fd5dfb164f75",
 	"projectname": "threejs-example",
 	"debugOptions": {
 		"hidedInDevtools": []
