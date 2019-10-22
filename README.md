@@ -25,24 +25,24 @@ vivo X21A Android 9 Wechat version Wechat Version 7.0.5
 
 1. 基本
 
-![基本](./demo/Screenshot_2019-10-22-11-03-47-236_com.tencent.mm.png){:height="50%" width="50%"}
+![基本](./demo/Screenshot_2019-10-22-11-03-47-236_com.tencent.mm.png  | width=100)
 
 2. OrbitControl 立方
 
-![立方](./demo/Screenshot_2019-10-22-11-04-02-587_com.tencent.mm.png){:height="50%" width="50%"}
+![立方](./demo/Screenshot_2019-10-22-11-04-02-587_com.tencent.mm.png)
 
 
 3. gLTF 文件加载
 
-![gLTF](./demo/Screenshot_2019-10-22-11-04-32-720_com.tencent.mm.png){:height="50%" width="50%"}
+![gLTF](./demo/Screenshot_2019-10-22-11-04-32-720_com.tencent.mm.png)
 
 4. gLTF 文件加贴图
 
-![gLTF](./demo/Screenshot_2019-10-22-11-03-37-095_com.tencent.mm.png){:height="50%" width="50%"}
+![gLTF](./demo/Screenshot_2019-10-22-11-03-37-095_com.tencent.mm.png)
 
-![gLTF](./demo/Screenshot_2019-10-22-11-01-18-748_com.tencent.mm.png){:height="50%" width="50%"}
+![gLTF](./demo/Screenshot_2019-10-22-11-01-18-748_com.tencent.mm.png)
 
 
 5. obj 文件
 
-![obj](./demo/Screenshot_2019-10-22-11-05-48-148_com.tencent.mm.png){:height="50%" width="50%"}
+![obj](./demo/Screenshot_2019-10-22-11-05-48-148_com.tencent.mm.png)
