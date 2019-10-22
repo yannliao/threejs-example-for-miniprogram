@@ -4,6 +4,7 @@
     "pages/primitives/index",
     "pages/cube/index",
     "pages/gltf/index",
+    "pages/ngltf/index",
     "pages/obj/index",
     "pages/logs/logs"
   ],

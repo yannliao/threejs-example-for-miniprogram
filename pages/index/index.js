@@ -18,6 +18,11 @@ Page({
       url: '/pages/gltf/index'
     })
   },
+  ngltf: function () {
+    wx.navigateTo({
+      url: '/pages/ngltf/index'
+    })
+  },
   obj: function () {
     wx.navigateTo({
       url: '/pages/obj/index'
