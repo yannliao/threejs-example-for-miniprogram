@@ -17,10 +17,12 @@ three.js 在小程序里的使用示例，其中 [three.js](https://github.com/y
 
 ## 兼容性
 
-xiaomi MIX2 Android 8.0.0   Wechat Version 7.0.5 
+<font color=green> xiaomi MIX2 Android 8.0.0   Wechat Version 7.0.5   ok </font>
 
-vivo X21A Android 9 Wechat version Wechat Version 7.0.5
+<font color=green> vivo X21A Android 9  Wechat Version 7.0.5    ok </font>
 
+<font color=red> iphone 8Plus  ios13.1.2  Wechat Version 7.0.8    new gLTF 白屏 </font>
+    
 ## 演示
 
 1. 基本
