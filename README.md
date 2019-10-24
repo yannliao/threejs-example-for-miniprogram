@@ -37,13 +37,17 @@ three.js 在小程序里的使用示例，其中 [three.js](https://github.com/y
 
 <img src="./demo/Screenshot_2019-10-22-11-04-32-720_com.tencent.mm.png"  width="120">
 
-4. gLTF 文件加贴图
+glb 文件 
+
+<img src="./demo/Screenshot_2019-10-24-10-43-43-123_com.tencent.mm.png"  width="120">
+
+gLTF 文件加贴图
 
 <img src="./demo/Screenshot_2019-10-22-11-03-37-095_com.tencent.mm.png"  width="120">
 
 <img src="./demo/Screenshot_2019-10-22-11-01-18-748_com.tencent.mm.png"  width="120">
 
-5. obj 文件
+4. obj 文件
 
 <img src="./demo/Screenshot_2019-10-22-11-05-48-148_com.tencent.mm.png"  width="120">
 
