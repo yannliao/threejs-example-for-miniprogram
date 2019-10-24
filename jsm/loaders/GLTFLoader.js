@@ -2060,15 +2060,15 @@ export default function (THREE) {
 			// Load binary image data from bufferView, if provided.
 
 			sourceURI = parser.getDependency('bufferView', source.bufferView).then(function (bufferView) {
-
-				// isObjectURL = true;
-				// var blob = new Blob([bufferView], { type: source.mimeType });
-				// sourceURI = URL.createObjectURL(blob);
-				// return sourceURI;
-				var base64 = wx.arrayBufferToBase64(bufferView)
-				var base64String = `data:${source.mimeType};base64,${base64}`
-				return base64String
-
+				if (window.arrayBufferToBase64 != undefined) {
+					var base64 = wx.arrayBufferToBase64(bufferView)
+					var base64String = `data:${source.mimeType};base64,${base64}`
+					return base64String
+				}
+				isObjectURL = true;
+				var blob = new Blob([bufferView], { type: source.mimeType });
+				sourceURI = URL.createObjectURL(blob);
+				return sourceURI;
 			});
 
 		}
@@ -2096,12 +2096,13 @@ export default function (THREE) {
 		}).then(function (texture) {
 
 			// Clean up resources and configure Texture.
+			if (window.arrayBufferToBase64 == undefined) {
+				if (isObjectURL === true) {
 
-			// if (isObjectURL === true) {
-
-			// 	URL.revokeObjectURL(sourceURI);
-
-			// }
+					URL.revokeObjectURL(sourceURI);
+	
+				}
+			}
 
 			texture.flipY = false;
 
