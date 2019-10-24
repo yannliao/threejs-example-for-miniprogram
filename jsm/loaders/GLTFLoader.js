@@ -2061,10 +2061,13 @@ export default function (THREE) {
 
 			sourceURI = parser.getDependency('bufferView', source.bufferView).then(function (bufferView) {
 
-				isObjectURL = true;
-				var blob = new Blob([bufferView], { type: source.mimeType });
-				sourceURI = URL.createObjectURL(blob);
-				return sourceURI;
+				// isObjectURL = true;
+				// var blob = new Blob([bufferView], { type: source.mimeType });
+				// sourceURI = URL.createObjectURL(blob);
+				// return sourceURI;
+				var base64 = wx.arrayBufferToBase64(bufferView)
+				var base64String = `data:${source.mimeType};base64,${base64}`
+				return base64String
 
 			});
 
@@ -2094,11 +2097,11 @@ export default function (THREE) {
 
 			// Clean up resources and configure Texture.
 
-			if (isObjectURL === true) {
+			// if (isObjectURL === true) {
 
-				URL.revokeObjectURL(sourceURI);
+			// 	URL.revokeObjectURL(sourceURI);
 
-			}
+			// }
 
 			texture.flipY = false;
 

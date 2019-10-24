@@ -13,6 +13,11 @@ Page({
       url: '/pages/cube/index'
     })
   },
+  glb: function () {
+    wx.navigateTo({
+      url: '/pages/glb/index'
+    })
+  },
   gltf: function () {
     wx.navigateTo({
       url: '/pages/gltf/index'

@@ -1,10 +1,12 @@
 {
 	"description": "项目配置文件",
 	"packOptions": {
-		"ignore": [{
-			"value": "demo",
-			"type": "folder"
-		}]
+		"ignore": [
+			{
+				"value": "demo",
+				"type": "folder"
+			}
+		]
 	},
 	"setting": {
 		"urlCheck": false,
@@ -15,6 +17,7 @@
 		"coverView": true,
 		"nodeModules": true,
 		"autoAudits": false,
+		"uglifyFileName": true,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -22,8 +25,7 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"uglifyFileName": true
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.3",

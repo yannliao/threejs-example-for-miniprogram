@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/primitives/index",
     "pages/cube/index",
+    "pages/glb/index",
     "pages/gltf/index",
     "pages/ngltf/index",
     "pages/obj/index",

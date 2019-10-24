@@ -1,4 +1,4 @@
-import * as THREE from '../../libs/three.weapp.min.js'
+import * as THREE from '../../libs/three.weapp.js'
 import renderPrimitives from './primitives'
 
 Page({

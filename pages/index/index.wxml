@@ -11,6 +11,9 @@
     <button type="primary" size="default" plain="true" bindtap="ngltf">
         New gLTF
     </button>
+    <button type="primary" size="default" plain="true" bindtap="glb">
+        glb
+    </button>
     <button type="primary" size="default" plain="true" bindtap="obj">
         OBJ
     </button>
