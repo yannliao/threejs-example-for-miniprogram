@@ -17,15 +17,15 @@ Page({
 	},
 	touchStart(e) {
 		console.log('canvas', e)
-		THREE.global.touchEventHandlerFactory('document', 'touchstart')(e)
+		THREE.global.touchEventHandlerFactory('canvas', 'touchstart')(e)
 	},
 	touchMove(e) {
 		console.log('canvas', e)
-		THREE.global.touchEventHandlerFactory('document', 'touchmove')(e)
+		THREE.global.touchEventHandlerFactory('canvas', 'touchmove')(e)
 	},
 	touchEnd(e) {
 		console.log('canvas', e)
-		THREE.global.touchEventHandlerFactory('document', 'touchend')(e)
+		THREE.global.touchEventHandlerFactory('canvas', 'touchend')(e)
 	},
 	touchCancel(e) {
 		// console.log('canvas', e)
