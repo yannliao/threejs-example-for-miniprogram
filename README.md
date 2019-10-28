@@ -49,5 +49,9 @@ gLTF 文件加贴图
 
 4. obj 文件 （WEBGL_compressed_texture_s3tc 扩展不支持）
 
-<img src="./demo/Screenshot_2019-10-22-11-05-48-148_com.tencent.mm.png"  width="120">
+<img src="./demo/Screenshot_2019-10-28-19-13-24-007_com.tencent.mm.png"  width="120">
 
+
+5. 动画
+
+<img src="./demo/Screenshot_2019-10-28-20-01-20-469_com.tencent.mm.png"  width="120">
