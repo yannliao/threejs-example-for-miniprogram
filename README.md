@@ -101,5 +101,15 @@ three.js 在小程序里的使用示例，其中 [three.js](https://github.com/y
             iphone 8Plus  ios13.1.2  Wechat Version 7.0.8</br>
             </th>
         </tr>
+        <tr>
+            <th>raycaster 选中立方体</th>
+            <th>
+            <img src="./demo/Screenshot_2019-10-30-00-14-41-017_com.tencent.mm.png" width="120">
+            </th>
+            <th>
+            xiaomi MIX2 Android 8.0.0   Wechat Version 7.0.5 </br>
+            iphone 8Plus  ios13.1.2  Wechat Version 7.0.8</br>
+            </th>
+        </tr>
     </tbody>
 </table>

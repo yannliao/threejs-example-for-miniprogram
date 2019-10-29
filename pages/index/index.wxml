@@ -20,4 +20,7 @@
     <button type="primary" size="default" plain="true" bindtap="tap" data-id="animation">
         animation
     </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="raycaster">
+        raycaster
+    </button>
 </view>
