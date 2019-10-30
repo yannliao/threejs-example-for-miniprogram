@@ -7,7 +7,7 @@ three.js example in wechat miniprogram
 three.js 在小程序里的使用示例，其中 [three.js](https://github.com/yannliao/three.js) 使用的是小程序移植版，详情请到 [https://github.com/yannliao/three.js](https://github.com/yannliao/three.js)。
 
 ## 注意 
-由于示例中有较多的模型是使用官网链接，加载比较慢。如果可以请查找替换资源路径，并替换。
+由于示例中有较多的模型是使用官网链接，加载比较慢。如果可以请查找替换资源路径，并替换。小程序只可以跟指定的域名与进行网络通信。使用前请[配置信任域名](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)
 
 ## 示例&兼容性
 
