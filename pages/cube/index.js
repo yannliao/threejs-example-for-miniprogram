@@ -1,5 +1,5 @@
 import * as THREE from '../../libs/three.weapp.js'
-import { OrbitControls } from '../../jsm/loaders/OrbitControls'
+import { OrbitControls } from '../../jsm/controls/OrbitControls'
 
 Page({
   data: {

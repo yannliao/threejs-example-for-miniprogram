@@ -1,8 +1,6 @@
 import gLTF from '../../jsm/loaders/GLTFLoader'
-import { OrbitControls } from '../../jsm/loaders/OrbitControls'
+import { OrbitControls } from '../../jsm/controls/OrbitControls'
 
-// import { OrbitControls } from './jsm/controls/OrbitControls.js';
-// import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 import getRGBLoader from '../../jsm/loaders/RGBELoader.js';
 import getGenerator from '../../jsm/loaders/EquirectangularToCubeGenerator.js';
 import getPMREMGenerator from '../../jsm/pmrem/PMREMGenerator.js';

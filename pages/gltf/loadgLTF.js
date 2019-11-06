@@ -1,5 +1,5 @@
 import gLTF from '../../jsm/loaders/GLTFLoader'
-import { OrbitControls } from '../../jsm/loaders/OrbitControls'
+import { OrbitControls } from '../../jsm/controls/OrbitControls'
 
 export default function (canvas, THREE) {
   let GLTFLoader = gLTF(THREE);
@@ -299,6 +299,8 @@ export default function (canvas, THREE) {
       controls.maxDistance = boxSize * 10;
       controls.target.copy(boxCenter);
       controls.update();
+    }, (e) => {
+      console.log('loading')
     });
   }
 

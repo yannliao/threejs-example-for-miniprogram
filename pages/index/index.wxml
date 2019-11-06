@@ -5,6 +5,10 @@
     <button type="primary" size="default" plain="true" bindtap="tap" data-id="cube">
         OrbitControl 立方
     </button>
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="trackcontrol">
+        TrackballControls
+    </button>
+    
     <button type="primary" size="default" plain="true" bindtap="tap" data-id="gltf">
         gLTF
     </button>

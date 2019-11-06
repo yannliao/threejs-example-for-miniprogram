@@ -1,5 +1,5 @@
 import * as THREE from '../../libs/three.weapp.js'
-import { OrbitControls } from '../../jsm/loaders/OrbitControls'
+
 let window = THREE.global;
 let { document } = window;
 

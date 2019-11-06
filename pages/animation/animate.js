@@ -1,7 +1,7 @@
 import getSkeletonUtils from '../../jsm/utils/SkeletonUtils.js';
 
 import getGLTFLoader from '../../jsm/loaders/GLTFLoader'
-import { OrbitControls } from '../../jsm/loaders/OrbitControls'
+import { OrbitControls } from '../../jsm/controls/OrbitControls'
 
 
 export default function (canvas, THREE) {

@@ -8,6 +8,7 @@
     "pages/ngltf/index",
     "pages/obj/index",
     "pages/animation/index",
+    "pages/trackcontrol/index",
     "pages/raycaster/index",
     "pages/logs/logs"
   ],

@@ -2,7 +2,7 @@
 import getDDSLoader from '../../jsm/loaders/DDSLoader.js';
 import getMTLLoader from '../../jsm/loaders/MTLLoader.js';
 import getOBJLoader from '../../jsm/loaders/OBJLoader.js';
-import { OrbitControls } from '../../jsm/loaders/OrbitControls';
+import { OrbitControls } from '../../jsm/controls/OrbitControls';
 
 export default function (canvas, THREE) {
     let { DDSLoader } = getDDSLoader(THREE);

@@ -9,7 +9,8 @@ three.js 在小程序里的使用示例，其中 [three.js](https://github.com/y
 ## 注意 
 1. 由于示例中有较多的模型是使用官网链接，加载比较慢。如果可以请查找替换资源路径，并替换。小程序只可以跟指定的域名与进行网络通信。使用前请[配置信任域名](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)
 
-2. 内存泄漏。为了防止内存泄漏，请在页面unload时，用 THREE.global.unregisterCanvas 或 THREE.global.clearCanvas 清除THREE.global中的canvas引用。同时利用canvas.cancelAnimationFrame 清除动画， 并且释放 Geometries Materials 等 Three.js 对象， 参考[How to dispose of objects](https://threejs.org/docs/index.html#manual/en/introduction/How-to-dispose-of-objects)
+2. 内存泄漏。为了防止内存泄漏，请在页面unload时，用 THREE.global.unregisterCanvas 或 THREE.global.clearCanvas 清除THREE.global中的canvas引用。同时利用canvas.cancelAnimationFrame 清除动画， 并且释放 Geometries Materials 等 Three.js 对象， 参考[How to dispose of objects](https://threejs.org/docs/index.html#manual/en/introduction/How-to-dispose-of-objects), [Three.js Cleanup](https://threejsfundamentals.org/threejs/lessons/threejs-cleanup.html)
+
 ## 示例&兼容性
 
 <table>
