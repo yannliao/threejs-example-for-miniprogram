@@ -464,8 +464,8 @@ export default function (THREE) {
 					// \t -> 匹配一个制表符
 					// \v -> 匹配一个垂直制表符
 					// \s+ 表示匹配任意多个上面的字符
-					// var data = line.split(/\s+/);
-					var data = line.split(" ");
+					var data = line.split(/\s+/);
+					// var data = line.split(" ");
 
 					switch (data[0]) {
 
@@ -505,8 +505,8 @@ export default function (THREE) {
 				} else if (lineFirstChar === 'f') {
 
 					var lineData = line.substr(1).trim();
-					// var vertexData = lineData.split(/\s+/);
-					var vertexData = lineData.split(" ");
+					var vertexData = lineData.split(/\s+/);
+					// var vertexData = lineData.split(" ");
 					var faceVertices = [];
 
 					// Parse the face vertex data into an easy to work with format
