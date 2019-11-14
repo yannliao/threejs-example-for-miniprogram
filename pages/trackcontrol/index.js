@@ -138,8 +138,10 @@ Page({
       })
   },
   onUnload: function () {
-    this.data.canvas.cancelAnimationFrame();
-    this.setData({
+    let that = this;
+    that.data.canvas.cancelAnimationFrame(that.animateId);
+    that.animateId = null;
+    that.setData({
       canvas: null
     });
     THREE.global.clearCanvas();

@@ -22,7 +22,7 @@ Page({
 	render(canvas) {
 		const renderer = new THREE.WebGLRenderer({ antialias: true });
 		renderer.setPixelRatio(window.devicePixelRatio);
-		renderer.setSize(canvas.width, canvas.height);
+		// renderer.setSize(canvas.width, canvas.height);
 		renderer.gammaOutput = true;
 
 		const fov = 45;
