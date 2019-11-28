@@ -2061,7 +2061,7 @@ export default function (THREE) {
 
 			sourceURI = parser.getDependency('bufferView', source.bufferView).then(function (bufferView) {
 				if (window.arrayBufferToBase64 != undefined) {
-					var base64 = wx.arrayBufferToBase64(bufferView)
+					var base64 = window.arrayBufferToBase64(bufferView)
 					var base64String = `data:${source.mimeType};base64,${base64}`
 					return base64String
 				}

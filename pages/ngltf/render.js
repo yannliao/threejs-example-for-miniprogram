@@ -25,7 +25,7 @@ export default function (canvas, THREE) {
 
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(canvas.width, canvas.height);
+    // renderer.setSize(canvas.width, canvas.height);
     renderer.gammaOutput = true;
 
 
@@ -81,18 +81,6 @@ export default function (canvas, THREE) {
     controls = new OrbitControls(camera, renderer.domElement);
     controls.target.set(0, - 0.2, - 0.2);
     controls.update();
-
-    window.addEventListener('resize', onWindowResize, false);
-
-  }
-
-  function onWindowResize() {
-
-    camera.aspect = canvas.width / canvas.height;
-    camera.updateProjectionMatrix();
-
-    renderer.setSize(canvas.width, canvas.height);
-
   }
 
   //
