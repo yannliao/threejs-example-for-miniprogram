@@ -10,6 +10,7 @@
     "pages/animation/index",
     "pages/trackcontrol/index",
     "pages/raycaster/index",
+    "pages/draco/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -18,5 +19,6 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "workers": "workers",
   "sitemapLocation": "sitemap.json"
 }
