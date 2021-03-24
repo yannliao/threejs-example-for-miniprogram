@@ -2077,7 +2077,8 @@ export default function (THREE) {
 
 			// Load Texture resource.
 
-			var loader = Loader.Handlers.get(sourceURI);
+			// var loader = Loader.Handlers.get(sourceURI);
+			var loader = options.manager.getHandler(sourceURI);
 
 			if (!loader) {
 
@@ -2100,7 +2101,7 @@ export default function (THREE) {
 				if (isObjectURL === true) {
 
 					URL.revokeObjectURL(sourceURI);
-	
+
 				}
 			}
 
@@ -2280,7 +2281,7 @@ export default function (THREE) {
 		if (material.aoMap && geometry.attributes.uv2 === undefined && geometry.attributes.uv !== undefined) {
 
 			console.log('THREE.GLTFLoader: Duplicating UVs to support aoMap.');
-			geometry.addAttribute('uv2', new BufferAttribute(geometry.attributes.uv.array, 2));
+			geometry.setAttribute('uv2', new BufferAttribute(geometry.attributes.uv.array, 2));
 
 		}
 
@@ -2474,7 +2475,7 @@ export default function (THREE) {
 			return parser.getDependency('accessor', accessorIndex)
 				.then(function (accessor) {
 
-					geometry.addAttribute(attributeName, accessor);
+					geometry.setAttribute(attributeName, accessor);
 
 				});
 
